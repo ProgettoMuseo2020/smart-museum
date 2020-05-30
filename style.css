@@ -5,3 +5,7 @@ body{
     padding: 0;
     color: white;
 }
+
+/*Responsive phone*/
+@media screen and (max-width: 1400px) {
+}
