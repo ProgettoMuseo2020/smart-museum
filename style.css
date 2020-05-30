@@ -741,4 +741,74 @@ body{
     #qr_code4{
         display: none;
     }
+    
+        /*Opera 5*/
+    .middle5{
+        position: absolute;
+        top: 1150px;
+        left: 50%;
+    }
+
+    .card5{
+        width: 170px;
+        height: 260px;
+    }
+
+    .front5,.back5{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+        transition: transform .6s linear;
+    }
+
+    .front5 img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .front5{
+        transform: perspective(600px) rotateX(0deg);
+    }
+
+    .back5{
+        background: #ffffff;
+        transform: perspective(600px) rotateX(180deg);
+    }
+
+    .back-content5{
+        color: #2c3e50;
+        text-align: center;
+        width: 100%;
+    }
+
+    .card5:hover > .front5{
+        transform: perspective(600px) rotateX(-180deg);
+    }
+
+    .card5:hover > .back5{
+        transform: perspective(600px) rotateX(0deg);
+    }
+
+    #descrizione_opera_5{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    #maggiori_informazioni{
+        display: grid;
+    }
+
+    .back-content #nome_opera{
+        margin-bottom: -5px;
+    }
+
+    #qr_code5{
+        display: none;
+    }
+
+    #opere{
+        display: flex;
+    }
 }
