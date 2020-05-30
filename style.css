@@ -58,12 +58,23 @@ body{
   z-index: -1111;
 }
 
+/*Testo di benvenuto*/
 #testo_non_responsive{
   display: grid;
 }
 
 #testo_responsive{
   display: none;
+}
+
+#text1 {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+#text2 {
+    text-align: center;
 }
 
 /*Responsive phone*/
@@ -99,7 +110,7 @@ body{
     #chk:checked ~ .menu{
         right: 0;
     }
-    
+    /*Testo di benvenuto*/
     #testo_non_responsive{
       display: none;
     }
