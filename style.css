@@ -148,6 +148,77 @@ body{
     display: none;
 }
 
+/*Opera 2*/
+.middle2{
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card2{
+    width: 400px;
+    height: 260px;
+}
+
+.front2,.back2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.front2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.front2{
+    transform: perspective(600px) rotateX(0deg);
+}
+
+.back2{
+    background: #ffffff;
+    transform: perspective(600px) rotateX(180deg);
+}
+
+.back-content2{
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+}
+
+.card2:hover > .front2{
+    transform: perspective(600px) rotateX(-180deg);
+}
+
+.card2:hover > .back2{
+    transform: perspective(600px) rotateX(0deg);
+}
+
+#descrizione_opera{
+    font-size: 15px;
+}
+
+.back-content #nome_opera{
+    margin-bottom: -5px;
+}
+
+#qr_code2{
+    display: block;
+    margin: -5px auto;
+    text-align: center;
+    width: 30%;
+}
+
+#maggiori_informazioni{
+    display: none;
+}
+
 /*Responsive phone*/
 @media screen and (max-width: 1400px) {
     /*Navbar*/
