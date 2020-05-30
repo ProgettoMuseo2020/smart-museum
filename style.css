@@ -58,6 +58,14 @@ body{
   z-index: -1111;
 }
 
+#testo_non_responsive{
+  display: grid;
+}
+
+#testo_responsive{
+  display: none;
+}
+
 /*Responsive phone*/
 @media screen and (max-width: 1400px) {
     /*Navbar*/
@@ -90,5 +98,13 @@ body{
 
     #chk:checked ~ .menu{
         right: 0;
+    }
+    
+    #testo_non_responsive{
+      display: none;
+    }
+
+    #testo_responsive{
+      display: grid;
     }
 }
