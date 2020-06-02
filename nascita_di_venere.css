@@ -99,4 +99,13 @@ body{
     #chk:checked ~ .menu{
         right: 0;
     }
+    
+    .container{
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    #opera{
+        width: 90%;
+    }
 }
