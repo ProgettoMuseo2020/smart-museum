@@ -65,3 +65,8 @@ body{
     width: 70%;
     padding-top: 50px;
 }
+
+/*Responsive phone*/
+@media screen and (max-width: 1400px) {
+    
+}
