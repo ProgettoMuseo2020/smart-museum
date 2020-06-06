@@ -54,3 +54,15 @@ body{
   visibility: hidden;
   z-index: -1111;
 }
+
+.container{
+    width: 50%;
+    display: block;
+    margin: -15px auto;
+    text-align: center;
+}
+
+#opera{
+    width: 70%;
+    padding-top: 50px;
+}
