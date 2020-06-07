@@ -57,3 +57,16 @@ body{
   visibility: hidden;
   z-index: -1111;
 }
+
+.container{
+  text-align: center;
+}
+
+#contatti{
+  text-align: left;
+}
+
+p a{
+  color: #3498db;
+  text-decoration: none;
+}
